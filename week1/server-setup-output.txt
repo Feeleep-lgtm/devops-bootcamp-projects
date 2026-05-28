@@ -1,0 +1,28 @@
+[06:45:12] ========================================
+[06:45:12] Starting Server Setup Script
+[06:45:12] ========================================
+[06:45:13] Updating package lists and upgrading system...
+[06:46:28] System packages updated successfully
+[06:46:29] Installing essential packages: git curl vim htop wget unzip net-tools ca-certificates gnupg lsb-release
+[06:47:05] Essential packages installed
+[06:47:06] Creating new user: devopsuser
+[06:47:07] User 'devopsuser' created and added to sudo group
+[06:47:08] Setting timezone to Africa/Lagos...
+[06:47:08] Timezone set to: Africa/Lagos
+[06:47:09] Configuring UFW firewall...
+[06:47:12] Firewall (UFW) enabled with SSH allowed
+[06:47:13] ========================================
+[06:47:13] Server Setup Completed Successfully!
+[06:47:13] ========================================
+
+══════════════════════════════════════════════
+               SETUP SUMMARY
+══════════════════════════════════════════════
+OS          : Ubuntu 24.04.2 LTS
+User Created: devopsuser
+Timezone    : Africa/Lagos
+Firewall    : Active (UFW)
+Log File    : /tmp/setup-20250507-064512.log
+══════════════════════════════════════════════
+
+Script finished. Log saved to: /tmp/setup-20250507-064512.log
